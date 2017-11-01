@@ -111,7 +111,7 @@ public class CSSDeclaration implements ICSSWriteable, ICSSSourceLocationAware
   @Nonnull
   public CSSDeclaration setProperty (@Nonnull @Nonempty final String sProperty)
   {
-    m_sProperty = ValueEnforcer.notEmpty (sProperty, "Property").toLowerCase (Locale.US);
+    m_sProperty = ValueEnforcer.notEmpty (sProperty, "Property");
     return this;
   }
 

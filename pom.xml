@@ -25,7 +25,7 @@
     <version>1.3.3</version>
   </parent>
   <artifactId>ph-css</artifactId>
-  <version>3.9.1</version>
+  <version>3.9.1.2-HOUZZ</version>
   <packaging>bundle</packaging>
   <name>ph-css</name>
   <description>Java CSS 3 parser and builder</description>
@@ -41,10 +41,10 @@
   </licenses>
  
   <scm>
-    <connection>scm:git:git@github.com:phax/ph-css.git</connection>
-    <developerConnection>scm:git:git@github.com:phax/ph-css.git</developerConnection>
-    <url>http://github.com/phax/ph-css</url>
-    <tag>ph-css-3.9.1</tag>
+    <connection>scm:git:git@github.com:elikonky-houzz/ph-css.git</connection>
+    <developerConnection>scm:git:git@github.com:elikonky-houzz/ph-css.git</developerConnection>
+    <url>https://github.com/elikonky-houzz/ph-css</url>
+    <tag>ph-css-3.9.1.1</tag>
   </scm>
   
   <organization>
@@ -133,4 +133,13 @@
       </plugin>
     </plugins>
   </build>
+
+
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>builder-releases</name>
+        <url>http://houzz-jfrog.ngrok.io/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
 </project>
